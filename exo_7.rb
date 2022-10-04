@@ -1,6 +1,8 @@
-puts 'Donnez moi un chiffre'
-chiffre = gets.chomp
-chiffre.to_i.times do |i|
-    puts "#{i + 1}"
+puts "Donnez un nombre"
+print ">"
+nbr = gets.to_i
 
+1.upto(nbr-1) do |n|
+    puts n 
+    sleep 0.5
 end
