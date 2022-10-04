@@ -1,3 +1,3 @@
-puts "quel est ton prénom ?"
+puts "quel est ton prénoms ?"
 prenom = gets.chomp
 puts "bonjour #{prenom}"
